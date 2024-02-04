@@ -1,6 +1,10 @@
-// import 'package:git/git.dart' as git;
 
 void main(List<String> arguments) {
-  // print('Hello world: ${git.calculate()}!');
-  print("My name is Alaa");
+  int num1 = 5;
+  int num2 = 5;
+  sunFunc(num1, num2); 
+}
+
+sunFunc(int num1 , int num2){
+  return num1 + num2;
 }
